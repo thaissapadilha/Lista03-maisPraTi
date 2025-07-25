@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,6 @@ body {
   color: #333;
 }
 
-/* Menu base */
 .menu {
   background-color: #111;
   padding: 10px 20px;
@@ -39,7 +37,6 @@ body {
   background-color: rgba(255, 85, 0, 0.2);
 }
 
-/* Botão hamburger (oculto por padrão) */
 .menu-toggle {
   display: none;
   font-size: 28px;
@@ -48,7 +45,6 @@ body {
   user-select: none;
 }
 
-/* Responsividade */
 @media (max-width: 600px) {
   .menu-list {
     display: none;
@@ -76,7 +72,6 @@ body {
   }
 }
 
-/* Conteúdo principal */
 main {
   padding: 40px 20px;
   text-align: center;
