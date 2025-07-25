@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu Hamburger</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="menu">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="menu-list">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Bem-vindo(a) à Nossa Hamburgueria!</h1>
+      <p>Explore nosso menu e conheça nossos serviços.</p>
+    </section>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      const menuList = document.querySelector('.menu-list');
+      menuList.classList.toggle('ativo');
+    }
+  </script>
+
+</body>
+</html>
